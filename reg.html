@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+ <meta name="viewport" content="width=device-width,height=deviceheight"/>
+<head>
+ <title>Registration form</title>
+ <style>
+ #aaa
+ {
+ font-size:60px;
+ font-family:system;
+ color:sandybrown;
+ }
+ #cc
+ {
+ border:15px solid coral;
+ margin-right:450px;
+ margin-left:450px;
+ border-block-color: black;
+ background-color: black
+ }
+ th
+ {
+ font-size:17px;
+ font-family:sans-serif;
+ color:Black;
+ padding: 15px;
+ height: 20px;
+ }
+ #jj
+ {
+ background-color: gold;
+ padding: 15px;
+ width:30%;
+ border-radius: 300px;
+ box-shadow: blueviolet;
+ }
+ #jj:hover
+
+
+ {
+ background-color: burlywood;
+ }
+ #ii
+ {
+ height:30px;
+ }
+ ::placeholder
+ {
+ color:blue;
+ font-size: 25px;
+ }
+ </style>
+</head>
+
+<body>
+ <center><h1 id="aaa"><u>Registration Form</u></h1>
+<form>
+<table>
+ <tr><th>NAME</th><td><input type="text" name="name" size="30" id="ii">
+</td></tr>
+ <tr><th>EMAIL ID</th><td><input type="email" name="email" size="30" id
+="ii" required></td></tr>
+ <tr><th>MOBILE NO</th><td><input type="text" name="mobileno" size="30"
+id="ii"></td></tr>
+ <tr><th>USERNAME</th><td><input type="text" name="username" size="30"
+required id="ii" placeholder="Enter username"></td></tr>
+ <tr><th>PASSWORD</th><td><input type="password" name="password" size="30"
+required id="ii" placeholder="Ex:abc_123"></td></tr>
+ <tr><th>GENDER</th> <td><input type="radio" name="gender" value="male"
+checked> Male
+ <input type="radio" name="gender" value="female"> Female
+ <input type="radio" name="gender" value="other"> Other<br></td>
+ </tr>
+ <tr><th>BRANCH</th><td> <select name="Branch">
+ <option value="cse">CSE</option>
+ <option value="ECE">ECE</option>
+ <option value="MEC">MEC</option>
+ <option value="CE">CE</option>
+ </select></td></tr>
+ <tr><th>I AGREE </th><td><input type="checkbox" name="checkb
+ox"></td></tr>
+</table>
+<button type="submit" name="submit" id="jj">SUBMIT</button>
+</form>
+</center>
+
+</body>
+</html>
